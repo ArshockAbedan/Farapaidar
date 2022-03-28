@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.farapaidar.firstmenu001"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.farapaidar.firstmenu001.MainMenuActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.farapaidar.firstmenu001.ContactFirstPage"
+            android:label="@string/title_activity_contact_first_page" >
+        </activity>
+        <activity
+            android:name="com.farapaidar.firstmenu001.DisplayContactDetails"
+            android:label="@string/title_activity_display_contact_details" >
+        </activity>
+        <activity
+            android:name="com.farapaidar.firstmenu001.GoodFirstPage"
+            android:label="@string/title_activity_good_first_page"
+            android:parentActivityName="android.support.v4.app.FragmentActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="android.support.v4.app.FragmentActivity" />
+        </activity>
+        <activity
+            android:name="com.farapaidar.firstmenu001.SendGoodsToCenter"
+            android:label="@string/title_activity_send_goods_to_center"
+            android:parentActivityName="android.support.v4.app.FragmentActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="android.support.v4.app.FragmentActivity" />
+        </activity>
+        <activity
+            android:name="com.farapaidar.firstmenu001.RemoteReceiver"
+            android:label="@string/title_activity_remote_receiver"
+            android:parentActivityName="android.support.v4.app.FragmentActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="android.support.v4.app.FragmentActivity" />
+        </activity>
+        <activity
+            android:name="com.farapaidar.firstmenu001.OrderFirstPage"
+            android:label="@string/title_activity_order_first_page" >
+        </activity>
+        <activity
+            android:name="com.farapaidar.firstmenu001.DisplayOrdersItemDetails"
+            android:label="@string/title_activity_display_orders_item_details"
+            android:parentActivityName="android.support.v4.app.FragmentActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="android.support.v4.app.FragmentActivity" />
+        </activity>
+        <activity
+            android:name="com.farapaidar.firstmenu001.LoginActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.farapaidar.firstmenu001.LocalSendReceiver"
+            android:label="@string/title_activity_local_send_receiver" >
+        </activity>
+        <activity
+            android:name="com.farapaidar.firstmenu001.ReportSalesFirstPage"
+            android:label="@string/title_activity_report_sales_first_page"
+            android:parentActivityName="android.support.v4.app.FragmentActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="android.support.v4.app.FragmentActivity" />
+        </activity>
+        <activity
+            android:name="com.farapaidar.firstmenu001.ListviewAdapterReportSales"
+            android:label="@string/title_activity_listview_adapter_report_sales" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="android.support.v4.app.FragmentActivity" />
+        </activity>
+        <activity
+            android:name="com.farapaidar.firstmenu001.Map"
+            android:label="@string/title_activity_map"
+            android:parentActivityName="android.support.v4.app.FragmentActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="android.support.v4.app.FragmentActivity" />
+        </activity>
+        <activity
+            android:name="com.farapaidar.firstmenu001.ViewPagerExampleActivity"
+            android:label="@string/title_activity_view_pager_example"
+            android:parentActivityName="android.support.v4.app.FragmentActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="android.support.v4.app.FragmentActivity" />
+        </activity>
+        <activity
+            android:name="com.farapaidar.firstmenu001.NoteOfOrder"
+            android:label="@string/title_activity_note_of_order"
+            android:parentActivityName="android.support.v4.app.FragmentActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="android.support.v4.app.FragmentActivity" />
+        </activity>
+        <activity
+            android:name="com.farapaidar.firstmenu001.ReportReqstFirstPage"
+            android:label="@string/title_activity_report_reqst_first_page" >
+        </activity>
+        <activity
+            android:name="com.farapaidar.firstmenu001.MassageInReportReq"
+            android:label="@string/title_activity_massage_in_report_req"
+            android:parentActivityName="android.support.v4.app.FragmentActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="android.support.v4.app.FragmentActivity" />
+        </activity>
+        <activity
+            android:name="com.farapaidar.firstmenu001.WorkflowActivity"
+            android:label="@string/title_activity_workflow"
+            android:parentActivityName="android.support.v4.app.FragmentActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="android.support.v4.app.FragmentActivity" />
+        </activity>
+        <activity
+            android:name="com.farapaidar.firstmenu001.CartableActivity"
+            android:label="@string/title_activity_cartable" >
+        </activity>
+        <activity
+            android:name="com.farapaidar.firstmenu001.DefineWorkActivity"
+            android:label="@string/title_activity_define_work"
+            android:parentActivityName="android.support.v4.app.FragmentActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="android.support.v4.app.FragmentActivity" />
+        </activity>
+        <activity
+            android:name="com.farapaidar.firstmenu001.TaskFirstPage"
+            android:label="@string/title_activity_task_first_page" >
+        </activity>
+        <activity
+            android:name="com.farapaidar.firstmenu001.FragmentOfTasksFirstPage"
+            android:label="@string/title_activity_fragment_of_tasks_first_page" >
+        </activity>
+        <activity
+            android:name="com.farapaidar.firstmenu001.OperatorFirstPage"
+            android:label="@string/title_activity_operator_first_page" >
+        </activity>
+        <activity
+            android:name="com.farapaidar.firstmenu001.ShowNoteOrCommentOfTaskActivity"
+            android:label="@string/title_activity_show_note_or_comment_of_task" >
+        </activity>
+        <activity
+            android:name="com.farapaidar.firstmenu001.FragmentOfCartableFirstPage"
+            android:label="@string/title_activity_fragment_of_cartable_first_page" >
+        </activity>
+        <activity
+            android:name="com.farapaidar.firstmenu001.FragmentOfLoadOperatorFromServer"
+            android:label="@string/title_activity_fragment_of_load_operator_from_server" >
+        </activity>
+        <activity
+            android:name="com.farapaidar.firstmenu001.WorkReportsInFragmentOfCartableActivity"
+            android:label="@string/title_activity_work_reports_in_fragment_of_cartable" >
+        </activity>
+        <activity
+            android:name="com.farapaidar.firstmenu001.ShowBultain"
+            android:label="@string/title_activity_show_bultain" >
+        </activity>
+    </application>
+
+</manifest>

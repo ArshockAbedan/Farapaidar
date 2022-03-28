@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="DefaultLocale">
+        <ignore path="src/com/farapaidar/firstmenu001/DatabaseHandler.java" />
+        <ignore path="src/com/farapaidar/firstmenu001/FragmentOfCartableFirstPage.java" />
+        <ignore path="src/com/farapaidar/firstmenu001/FragmentOfLoadOperatorFromServer.java" />
+        <ignore path="src/com/farapaidar/firstmenu001/FragmentOfTasksFirstPage.java" />
+        <ignore path="src/com/farapaidar/firstmenu001/GoodFirstPage.java" />
+        <ignore path="src/com/farapaidar/firstmenu001/MainMenuActivity.java" />
+        <ignore path="src/com/farapaidar/firstmenu001/OperatorFirstPage.java" />
+        <ignore path="src/com/farapaidar/firstmenu001/ShowNoteOrCommentOfTaskActivity.java" />
+        <ignore path="src/com/farapaidar/firstmenu001/WorkReportsInFragmentOfCartableActivity.java" />
+    </issue>
+    <issue id="SimpleDateFormat">
+        <ignore path="src/com/farapaidar/firstmenu001/LoginActivity.java" />
+    </issue>
+</lint>
