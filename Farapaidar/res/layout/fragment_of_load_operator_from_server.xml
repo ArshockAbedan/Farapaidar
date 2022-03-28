@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".FragmentOfLoadOperatorFromServer" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:textSize="16dp"
+        android:text="اطلاعات اولیه مورد نیاز برای اجرای برنامه در سیستم وجود ندارد. آیا مایل به دریافت  اطلاعات از سرور می باشید؟" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+        
+        <Button 
+         android:id="@+id/btnCancelInFragmentOfLoadOperatorsFromServer"    
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:text="خیر"/>
+        
+         <Button 
+         android:id="@+id/btnOKInFragmentOfLoadOperatorsFromServer"    
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:text="بله"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

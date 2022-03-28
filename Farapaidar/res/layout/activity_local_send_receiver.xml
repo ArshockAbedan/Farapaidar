@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".LocalSendReceiver" >
+
+     <Button
+        android:id="@+id/btnGoodslocal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnContactslocal"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/btnContactslocal"
+        android:text="بروز رسانی موجودی کالا" />
+
+     <Button
+         android:id="@+id/btnContactslocal"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/btnGoodslocal"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="10dp"
+         android:text="بروز رسانی اطلاعات مشتریان" />
+
+     <Button
+         android:id="@+id/btnPriceListlocal"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/btnContactslocal"
+         android:layout_alignRight="@+id/btnContactslocal"
+         android:layout_below="@+id/btnContactslocal"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="10dp"
+         android:text="بروز رسانی لیست قیمت" />
+
+     <Button
+         android:id="@+id/btnOrderslocal"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/btnPriceListlocal"
+         android:layout_alignRight="@+id/btnPriceListlocal"
+         android:layout_below="@+id/btnPriceListlocal"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="10dp"
+         android:text="ارسال گردش عملیات به ستاد" />
+
+</RelativeLayout>

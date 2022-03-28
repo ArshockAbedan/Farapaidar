@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">عدگ</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="_sdcard_farapaidar_">/sdcard/Farapaidar/</string>
+    <string name="title_activity_contact">Contact</string>
+    <string name="title_activity_contact_first_page">اطلاعات مشتریان</string>
+    <string name="OnvaneKala">عنوان :</string>
+    <string name="searchButton">جستجو</string>
+    <string name="textboxHint">اسم را وارد کنید</string>
+    <string name="GridBackgroundColor">#eee9e9</string>
+    <string name="title_activity_display_contact_details">جزئیات اطلاعات مشتری</string>
+    <string name="HeaderRowId">کد : </string>
+    <string name="HeaderRowName">عنوان : </string>
+    <string name="HeaderRowRegionName">منطقه : </string>
+    <string name="HeaderRowPhoneNumber1">شماره تلفن 1 : </string>
+    <string name="HeaderRowPhoneNumber2">شماره تلفن 2 : </string>
+    <string name="HeaderRowPhoneNumber3">شماره تلفن 3 : </string>
+    <string name="HeaderRowPhoneNumber4">شماره تلفن 4 : </string>
+    <string name="HeaderRowAddress">آدرس : </string>
+    <string name="HeaderRowMobile">تلفن همراه : </string>
+    <string name="HeaderRowFax">فکس : </string>
+    <string name="HeaderRowDeposit">مانده حساب : </string>
+    <string name="HeaderRowDetection">تشخیص : </string>
+    <string name="title_activity_good_first_page">موجودی کالا</string>
+    <string name="title_activity_send_to_center">ارسال اطلاعات به ستاد</string>
+    <string name="title_activity_send_goods_to_center">ارسال اطلاعات موجودی کالا</string>
+    <string name="title_activity_remote_receiver">دریافت اطلاعات از ستاد</string>
+    <string name="title_activity_order_first_page">OrderFirstPage</string>
+    <string name="title_activity_display_orders_item_details">ورود تعداد کالا</string>
+    <string name="title_activity_login">احراز هویت</string>
+    <string name="title_activity_local_send_receiver">LocalSendReceiver</string>
+    <string name="title_activity_report_sales_first_page">گزارش عملیات فروش</string>
+    <string name="title_activity_listview_adapter_report_sales">ListviewAdapterReportSales</string>
+    <string name="title_activity_map">نقشه</string>
+    <string name="title_activity_view_pager_example">گالری تصاویر</string>
+    <string name="title_activity_note_of_order">NoteOfOrder</string>
+    <string name="title_activity_report_reqst_first_page">مرور سفارشات فروش</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_massage_in_report_req">MassageInReportReq</string>
+    <string name="title_activity_workflow">گردش کار</string>
+    <string name="title_activity_cartable">کارتابل</string>
+    <string name="title_activity_define_work">تعریف کار</string>
+    <string name="title_activity_task_first_page">لیست کارها</string>
+    <string name="title_activity_fragment_of_tasks_first_page">FragmentOfTasksFirstPage</string>
+    <string name="title_activity_operator_first_page">لیست اپراتورها</string>
+    <string name="title_activity_show_note_or_comment_of_task">ShowNoteOrCommentOfTaskActivity</string>
+    <string name="title_activity_fragment_of_cartable_first_page">FragmentOfCartableFirstPage</string>
+    <string name="title_activity_fragment_of_load_operator_from_server">FragmentOfLoadOperatorFromServer</string>
+    <string name="title_activity_work_reports_in_fragment_of_cartable">درج گزارش کار</string>
+    <string name="WorkMozoTitleInWorkflow">موضوع</string>
+    <string name="WorkMozoHintInWorkflow">موضوع کار را وارد کنید..</string>
+    <string name="WorkWorkMozoTitleInWorkflow">موضوع کار : </string>
+    <string name="WorkWorkDiscibeTitleInWorkflow">شرح کار : </string>
+    <string name="WorkWorkDiscibeHintInWorkflow">شرح کار را وارد کنید..</string>
+    <string name="title_activity_show_bultain">بولتن</string>
+
+</resources>

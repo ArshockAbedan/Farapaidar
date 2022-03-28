@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/linearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/backgroundordersfirstpage"
+    android:layoutDirection="rtl"
+    android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/SecondText"
+            android:layout_width="0dip"
+            android:layout_height="30dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="0.02"
+            android:gravity="right|center"
+            android:text="Second"
+            android:textDirection="rtl"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/FirstText"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="0.00"
+            android:gravity="right"
+            android:text="First"
+            android:textAlignment="0"
+            android:textDirection="rtl"
+            android:textSize="16sp"
+            android:textStyle="bold" >
+
+        </TextView>
+
+    </LinearLayout>
+    
+    
+        
+     <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:orientation="horizontal"  >
+     
+      <TextView
+          android:id="@+id/RialName"
+          android:layout_width="wrap_content"
+          android:layout_height="30dp"
+          android:layout_marginLeft="10dp"
+          android:layout_marginRight="5dp"
+          android:gravity="right"
+          android:text="ریال"
+          android:textDirection="rtl"
+          android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/ThirdText"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_weight="0.02"
+            android:gravity="right|center"
+            android:text="Third"
+            android:textColor="#33CC33"
+            android:textDirection="rtl"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+         <TextView
+             android:id="@+id/PriceName"
+             android:layout_width="100dp"
+             android:layout_height="30dp"
+             android:layout_marginRight="10dp"
+             android:gravity="right"
+             android:text="قیمت :"
+             android:textDirection="rtl"
+             android:textSize="16sp" />
+
+    </LinearLayout>
+    
+       <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:orientation="horizontal"  >
+
+    <TextView
+        android:id="@+id/FourthText"
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:layout_weight="0.01"
+        android:gravity="top|right"
+        android:text="Fourth"
+        android:textAlignment="0"
+        android:textDirection="rtl"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    
+     <TextView
+         android:id="@+id/PriceTypeName"
+         android:layout_width="100dp"
+         android:layout_height="30dp"
+         android:layout_marginRight="10dp"
+         android:gravity="right"
+         android:text="نحوه فروش :"
+         android:textDirection="rtl"
+         android:textSize="16sp" />
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layoutDirection="rtl"
+        android:orientation="horizontal" >
+     
+          
+    <TextView
+             android:id="@+id/FifthText"
+             android:layout_width="wrap_content"
+             android:layout_height="30dp"
+             android:layout_marginRight="8dp"
+             android:gravity="right"
+             android:text="Fifth"
+             android:textAlignment="0"
+             android:textDirection="rtl"
+             android:textSize="16sp"
+             android:layout_weight="0.01"
+             android:textStyle="bold" />
+
+         <EditText
+             android:id="@+id/editTextcount"
+             android:layout_width="63dp"
+             android:layout_height="wrap_content"
+             android:layout_marginRight="10dp"
+             android:layout_weight="0.01"
+             android:ems="8"
+             android:inputType="number"
+             android:singleLine="true" >
+
+             <requestFocus />
+         </EditText>
+
+     <TextView
+         android:id="@+id/CountUnitName"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginRight="10dp"
+         android:layout_weight="0.00"
+         android:gravity="right"
+         android:text="مقدار : "
+         android:textDirection="rtl"
+         android:textSize="16sp" />
+
+   </LinearLayout>
+
+     <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layoutDirection="ltr"
+        android:orientation="horizontal" >
+
+         <TextView
+             android:id="@+id/textView1"
+             android:layout_width="0dp"
+             android:layout_height="30dp"
+             android:layout_weight="1"
+             android:text="" />
+     
+            <TextView
+             android:id="@+id/TxtViewQNameInDisplayOrderItem"
+             android:layout_width="wrap_content"
+             android:layout_height="30dp"
+             android:layout_marginLeft="10dp"
+             android:layout_marginRight="10dp"
+             android:gravity="right"
+             android:text="عدد"
+             android:textDirection="rtl"
+             android:textSize="16sp" />
+              
+              
+                <TextView android:id="@+id/TxtViewQValueInDisplayOrderItem" 
+                 android:layout_width="50dp" 
+                 android:layout_height="30dp" 
+                 android:layout_marginRight="5dp" 
+                 android:gravity="center" 
+                 android:textDirection="rtl" 
+                 android:background="@drawable/border_box_count"
+                 android:textSize="16sp"/>
+             
+          <TextView
+             android:id="@+id/TxtViewAndInDisplayOrderItem"
+             android:layout_width="wrap_content"
+             android:layout_height="30dp"
+             android:layout_marginLeft="10dp"
+             android:layout_marginRight="10dp"
+             android:gravity="right"
+             android:text=" و "
+             android:textDirection="rtl"
+             android:textSize="16sp" />
+
+              <TextView
+             android:id="@+id/TxtViewBoxNameInDisplayOrderItem"
+             android:layout_width="wrap_content"
+             android:layout_height="30dp"
+             android:layout_marginLeft="10dp"
+             android:layout_marginRight="10dp"
+             android:gravity="right"
+             android:text="کارتن"
+             android:textDirection="rtl"
+             android:textSize="16sp" />
+              
+              
+                <TextView android:id="@+id/TxtViewBoxValueInDisplayOrderItem" 
+                 android:layout_width="50dp" 
+                 android:layout_height="30dp" 
+                 android:layout_marginRight="5dp" 
+                 android:gravity="center" 
+                 android:textDirection="rtl"
+                 android:background="@drawable/border_box_count" 
+                 android:textSize="16sp"/>
+ 
+                <TextView
+             android:id="@+id/textView2"
+             android:layout_width="68dp"
+             android:layout_height="30dp"
+             android:text="" />
+
+      </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/linearLayout7"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layoutDirection="rtl"
+        android:orientation="horizontal" >
+        
+    <TextView
+        android:id="@+id/itemTotalValue"
+        android:layout_width="70dp"
+        android:layout_height="match_parent"
+        android:layout_marginRight="5dp"
+        android:layout_weight="0.02"
+        android:gravity="right|center_vertical"
+        android:textDirection="rtl"
+        android:textSize="16sp" />
+    
+      <TextView
+        android:id="@+id/itemTotalname"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginRight="10dp"
+        android:gravity="right|center_vertical"
+        android:text="جمع : "
+        android:textDirection="rtl"
+        android:textSize="16sp" />
+    
+     </LinearLayout>
+     
+    
+
+     <Button
+         android:id="@+id/btnSabtItemsCount"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:onClick="registerItemCount"
+         android:text="ثبت" />
+      <View
+         android:layout_width="fill_parent"
+         android:layout_height="11dip"
+         android:layout_marginBottom="0dp"
+         android:background="#ffffff" />
+
+</LinearLayout>

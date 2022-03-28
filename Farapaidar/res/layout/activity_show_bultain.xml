@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#F1F1F0"
+    tools:context=".ShowBultain" >
+    
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:background="#F1F1F0" >
+
+            <TextView
+                android:id="@+id/TxtViewBultanLabe"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_toLeftOf="@+id/imageView1"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:text="بولتن" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/bulletin" />
+
+            <Button
+                android:id="@+id/btnContinueInBultainActivity"
+                android:layout_width="90dp"
+                android:layout_height="30dp"
+                android:layout_alignBaseline="@+id/TxtViewBultanLabe"
+                android:layout_alignBottom="@+id/TxtViewBultanLabe"
+                android:textSize="12sp" 
+                android:text="ادامه" />
+            
+        </RelativeLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="10dp" />
+
+    <ListView
+        android:id="@+id/listViewInBultain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="#F1F1F0"
+         android:dividerHeight="5dp"
+         android:background="#FFFF75" >
+
+    </ListView>
+    
+    
+    </LinearLayout>
+
+</RelativeLayout>

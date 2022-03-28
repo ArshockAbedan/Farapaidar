@@ -1,0 +1,102 @@
+  <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".DefineWorkActivity"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:id="@+id/LinearlayOneInDefineWork"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="right|center"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/edittxtTitleInDefineWork"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:hint="@string/WorkMozoHintInWorkflow" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="right|center"
+            android:text="موضوع : " />
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:id="@+id/LinearlayTwoInDefineWork"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LinearlayOneInDefineWork"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+        
+        
+         <Spinner
+              android:id="@+id/spinnerPriorityInDefineWork"
+              android:layout_width="wrap_content"
+              android:layout_height="50dp"
+              android:layout_marginRight="20dp"
+              android:layout_weight="1"
+              android:gravity="right|center_vertical" />
+
+          <Spinner
+              android:id="@+id/spinnerTypeInDefineWork"
+              android:layout_width="wrap_content"
+              android:layout_height="50dp"
+              android:layout_weight="1"
+              android:gravity="right" />
+        
+    </LinearLayout>
+    
+    <RelativeLayout
+        android:id="@+id/RelativelayOneInDefineWork"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LinearlayTwoInDefineWork"
+        android:layout_marginTop="20dp" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:gravity="right|center"
+            android:text="شرح کار : " />
+
+        <EditText
+            android:id="@+id/edittxtNoteinDefineWork"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/textView1"
+            android:ems="10"
+            android:hint="شرح  کار را وارد کنید..."
+            android:inputType="textMultiLine" >
+
+            <requestFocus android:layout_width="match_parent" />
+
+        </EditText>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btnRegisterInDefineWork"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/RelativelayOneInDefineWork"
+        android:layout_alignParentBottom="true"
+        android:onClick="RegisterDifindedWork"
+        android:text="ثبت" />
+
+</RelativeLayout>
+

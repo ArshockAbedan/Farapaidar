@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".FragmentOfTasksFirstPage" >
+
+    <Button
+        android:id="@+id/btnDeleteInFragmentOfTask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnWorkReportsInFragmentOfTask"
+        android:layout_alignRight="@+id/btnWorkReportsInFragmentOfTask"
+        android:layout_below="@+id/btnWorkReportsInFragmentOfTask"
+        android:text="حذف" />
+
+    <Button
+        android:id="@+id/btnUpdateInFragmentOfTask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnDeleteInFragmentOfTask"
+        android:layout_alignRight="@+id/btnDeleteInFragmentOfTask"
+        android:layout_below="@+id/btnDeleteInFragmentOfTask"
+        android:text="ویرایش" />
+
+    <Button
+        android:id="@+id/btnWorkReportsInFragmentOfTask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnWorkDescribeInFragmentOfTask"
+        android:layout_centerHorizontal="true"
+        android:text="گزارشات کار" />
+
+    <Button
+        android:id="@+id/btnWorkReferedInFragmentOfTask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnWorkReportsInFragmentOfTask"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/btnWorkDescribeInFragmentOfTask"
+        android:layout_marginTop="5dp"
+        android:text="ارجاع کار" />
+
+    <Button
+        android:id="@+id/btnWorkDescribeInFragmentOfTask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnWorkReportsInFragmentOfTask"
+        android:layout_alignRight="@+id/btnWorkReportsInFragmentOfTask"
+        android:layout_below="@+id/btnWorkReferedInFragmentOfTask"
+        android:text="شرح کار" />
+
+</RelativeLayout>

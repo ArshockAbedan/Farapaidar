@@ -1,0 +1,12 @@
+<com.farapaidar.firstmenu001.customimageview xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/customImageVIew1"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:layout_marginBottom="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp"
+    android:scaleType="matrix" />
+    

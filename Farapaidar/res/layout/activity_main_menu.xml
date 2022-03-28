@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?><RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".LoginActivity" >
+
+<GridView
+    android:id="@+id/gridView1"
+    android:layout_width="232dp"
+    android:layout_height="200dp"
+    android:layout_above="@+id/RelativeLayout1"
+    android:layout_alignLeft="@+id/RelativeLayout1"
+    android:layout_alignParentTop="true"
+    android:layout_alignRight="@+id/RelativeLayout1"
+    android:columnWidth="100dp"
+    android:layout_marginBottom="15dp"
+    android:gravity="center_horizontal"
+    android:layoutDirection="rtl"
+    android:numColumns="3"
+    android:stretchMode="columnWidth" >
+
+</GridView>
+
+<RelativeLayout
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:background="#000000"
+    android:gravity="right" >
+
+    <TextView
+        android:id="@+id/txtOperatorNameLable"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="کاربر : "
+        android:textColor="#ffffff" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txtTodayDateValue"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/txtVersion"
+        android:src="@drawable/flagyello" />
+
+    <TextView
+        android:id="@+id/txtOperatorNameValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/txtOperatorNameLable"
+        android:text="username"
+        android:textColor="#ffffff"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewWebsite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtVersion"
+        android:text="www.adgco.ir"
+         android:textSize="12sp"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/txtVersion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageViewError"
+        android:text="Version : 14-01"
+        android:textSize="12sp"
+        android:textColor="#ffffff" />
+
+    <ImageView
+        android:id="@+id/imageViewError"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_alignRight="@+id/txtVersion"
+        android:layout_below="@+id/txtTodayDateValue"
+        android:layout_marginRight="9dp"
+        android:src="@drawable/tinyerror" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textViewWebsite"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="8dp"
+        android:text="ت.د : "
+        android:textColor="#345aeb" />
+
+    <TextView
+        android:id="@+id/txtTodayDateLable"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/txtOperatorNameValue"
+        android:text="امروز : "
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/txtTodayDateValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignBaseline="@+id/txtTodayDateLable"
+        android:layout_alignBottom="@+id/txtTodayDateLable"
+        android:layout_toLeftOf="@+id/txtTodayDateLable"
+        android:text="Date"
+        android:textColor="#ffffff"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/txtviewCountUnsendedValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView1"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_toLeftOf="@+id/txtTodayDateLable"
+        android:text="TextView"
+        android:textSize="12sp"
+        android:textColor="#345aeb" />
+
+</RelativeLayout>
+
+</RelativeLayout>

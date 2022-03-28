@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#F2F5FC">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/personinorders" />
+
+    <TextView
+        android:id="@+id/SecondText"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_toLeftOf="@+id/FirstText"
+        android:text="Second"
+        android:textDirection="rtl"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/FirstText"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_above="@+id/ThirdText"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_toLeftOf="@+id/imageView1"
+        android:text="First"
+        android:textAlignment="0"
+        android:textDirection="rtl"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/ThirdText"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignRight="@+id/SecondText"
+        android:layout_below="@+id/SecondText"
+        android:text="Third"
+        android:textDirection="rtl"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/FifthText"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignBaseline="@+id/ThirdText"
+        android:layout_alignBottom="@+id/ThirdText"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Fifith"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/FourthText"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignBaseline="@+id/FifthText"
+        android:layout_alignBottom="@+id/FifthText"
+        android:layout_toRightOf="@+id/FifthText"
+        android:text="Fourth"
+        android:textDirection="rtl"
+        android:layout_marginBottom="10dp"
+        android:textColor="#812"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textViewDepositInContactList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/FourthText"
+        android:layout_toRightOf="@+id/FourthText"
+        android:text="مانده حساب : "
+        android:layout_marginLeft="5dp"
+        android:textSize="15sp" />
+    
+    
+     <View
+        android:layout_width="match_parent"
+        android:layout_height="11dip"
+        android:background="#ffffff" />
+
+     <TextView
+         android:id="@+id/SixthText"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignRight="@+id/ThirdText"
+         android:layout_below="@+id/ThirdText"
+         android:layout_marginBottom="20dp"
+         android:text="Sixth" />
+    
+    </RelativeLayout>
+ 

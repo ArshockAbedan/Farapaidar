@@ -1,0 +1,179 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".OrderFirstPage" >
+    
+    
+    
+      <LinearLayout
+           android:id="@+id/linearLayout1"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_alignParentTop="true"
+           android:layout_marginBottom="14dp"
+           android:gravity="right"
+           android:orientation="horizontal" >
+
+           <TextView
+               android:id="@+id/txtcontactName"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginRight="10dp"
+               android:text="" />
+
+           <TextView
+               android:id="@+id/txtcontactCode"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginRight="10dp"
+               android:text="+++" />
+
+           <Button
+               android:id="@+id/btnaddcontact"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:drawableRight="@drawable/personinorders"
+               android:onClick="OpenContact"
+               android:text="   انتخاب مشتری "
+               android:textSize="12sp" />
+
+       </LinearLayout>
+       
+      
+       <View
+           android:id="@+id/line1"
+           android:layout_width="match_parent"
+           android:layout_height="2dip"
+           android:layout_above="@+id/linearLayout2"
+           android:layout_alignParentRight="true"
+           android:background="#3CB371" />
+      
+         <LinearLayout
+         android:id="@+id/linearLayout2"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/linearLayout1"
+         android:layout_above="@+id/linearLayout3"
+         android:gravity="right"
+         android:orientation="vertical" >
+           
+                <Button
+                    android:id="@+id/btnaddgoods"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@drawable/ordersplus"
+                    android:onClick="OpenGoods"
+                    android:text="درج کالا"
+                    android:textSize="12sp" />
+
+    <ListView
+        android:id="@+id/listViewOrder"
+        android:layout_width="fill_parent"       
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="5dp"       
+        android:layoutDirection="rtl" 
+        android:background="@drawable/border_request">
+    </ListView>
+
+   
+   
+</LinearLayout>
+
+          <View
+        android:id="@+id/line2"
+        android:layout_width="match_parent"
+        android:layout_height="2dip"
+         android:layout_above="@+id/linearLayout3"
+        android:background="#3CB371" />
+         
+         <LinearLayout  android:id="@+id/linearLayout3"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_above="@+id/linearLayout4"
+         android:layout_marginTop="5dp"
+         android:gravity="right"
+         android:orientation="horizontal" >
+
+             
+              <TextView
+           android:id="@+id/txtTotalValue"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginRight="14dp"
+           android:gravity="center"
+           android:text="" />
+              
+              
+               <TextView
+           android:id="@+id/txtTotalName"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginRight="14dp"
+           android:text="جمع کل (ریال) : " />
+           
+            
+               
+           <TextView
+           android:id="@+id/txtContTotalValue"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginRight="14dp"
+           android:gravity="center"
+           android:text="" />
+               
+               
+               <TextView
+           android:id="@+id/txtCountTotalName"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+           android:text="جمع تعدادی : " />
+               
+         </LinearLayout>
+      
+<LinearLayout
+    android:id="@+id/linearLayout4"
+         android:layout_width="fill_parent"
+         android:layout_height="40dp"
+         android:layout_alignParentBottom="true"
+         android:layout_marginTop="5dp" 
+         android:orientation="horizontal">
+
+
+      <ImageButton
+          android:id="@+id/btnrigisterorder"
+          android:layout_width="50dp"
+          android:layout_height="match_parent"
+          android:onClick="RegisterOrder"
+          android:background="#001F1F"
+          android:layout_weight="0.9"
+          android:src="@drawable/orderssave" />
+
+      <TextView
+          android:layout_width="5dp"
+          android:layout_height="wrap_content" />
+      
+      <ImageButton
+          android:id="@+id/btnrnoteinorder"
+          android:layout_width="50dp"
+          android:layout_height="match_parent"
+          android:background="#001F1F"
+          android:layout_weight="0.9"
+          android:onClick="NoteOfOrder"
+          android:src="@drawable/ordersnote" />
+    
+</LinearLayout>
+
+     
+
+      
+
+      
+
+</RelativeLayout>

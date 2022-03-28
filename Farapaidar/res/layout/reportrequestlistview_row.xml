@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/linearLayout1InReq"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#70FF4D94"
+    android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2InReq"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/txtSecondInReq"
+            android:layout_width="0dip"
+            android:layout_height="30dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="0.02"
+            android:gravity="right|center"
+            android:text="Second"
+            android:textDirection="rtl"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtIDNameInReq"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:layout_marginRight="30dp"
+            android:text="شماره ثبت : " />
+
+        <TextView
+            android:id="@+id/txtFirstInReq"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="0.00"
+            android:gravity="right"
+            android:text="First"
+            android:textAlignment="0"
+            android:textDirection="rtl"
+            android:textSize="16sp"
+            android:textStyle="bold" >
+
+        </TextView>
+
+    </LinearLayout>
+    
+    
+        
+     <LinearLayout
+        android:id="@+id/linearLayout3InReq"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:orientation="horizontal"  >
+        
+         <TextView
+             android:id="@+id/txtThirdInReq"
+             android:layout_width="wrap_content"
+             android:layout_height="30dp"
+             android:layout_marginRight="10dp"
+             android:layout_weight="0.01"
+             android:gravity="right|center_vertical"
+             android:text="Third"
+             android:textAlignment="0"
+             android:textDirection="rtl"
+             android:textSize="16sp"
+             android:textStyle="bold" />
+  
+ <TextView
+            android:id="@+id/txtCustomerNameInReq"
+            android:layout_width="100dp"
+            android:layout_height="fill_parent"
+            android:gravity="right|center_vertical"
+            android:layout_marginRight="5dp"
+            android:text="عنوان مشتری : " />
+       
+
+    </LinearLayout>
+          <LinearLayout
+        android:id="@+id/linearLayout4InReq"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:orientation="horizontal"  >
+
+        
+         <TextView
+             android:id="@+id/txtFourthInReq"
+             android:layout_width="wrap_content"
+             android:layout_height="30dp"
+             android:layout_marginRight="10dp"
+             android:gravity="right|center_vertical"
+             android:text="Fourth"
+             android:textAlignment="0"
+             android:textDirection="rtl"
+             android:textSize="16sp"
+             android:layout_weight="0.01"
+             android:textStyle="bold" />
+       
+
+    </LinearLayout>
+     
+     
+     <View
+         android:layout_width="fill_parent"
+         android:layout_height="11dip"
+         android:layout_marginBottom="0dp"
+         android:background="#ffffff" />
+
+</LinearLayout>
