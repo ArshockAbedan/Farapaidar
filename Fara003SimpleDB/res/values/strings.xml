@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">شرکت فراپایدار</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="OnvaneKala">عنوان :</string>
+    <string name="searchButton">جستجو</string>
+    <string name="textboxHint">اسم را وارد کنید</string>
+    <string name="GridBackgroundColor">#eee9e9</string>
+    <string name="title_activity_display_contact_details">DisplayContactDetails</string>
+    
+    
+    
+     <string name="HeaderRowId">کد : </string>
+      <string name="HeaderRowName">عنوان : </string>
+       <string name="HeaderRowRegionName">منطقه : </string>
+        <string name="HeaderRowPhoneNumber1">شماره تلفن 1 : </string>
+         <string name="HeaderRowPhoneNumber2">شماره تلفن 2 : </string>
+          <string name="HeaderRowPhoneNumber3">شماره تلفن 3 : </string>
+           <string name="HeaderRowPhoneNumber4">شماره تلفن 4 : </string>
+            <string name="HeaderRowAddress">آدرس : </string>
+             <string name="HeaderRowMobile">تلفن همراه : </string>
+              <string name="HeaderRowFax">فکس : </string>
+               <string name="HeaderRowDeposit">مانده حساب : </string>
+                  <string name="HeaderRowDetection">تشخیص : </string>
+
+</resources>
