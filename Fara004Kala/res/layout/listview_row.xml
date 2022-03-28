@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+        android:id="@+id/linearLayout1" >
+       
+      <TextView
+        android:id="@+id/FirstText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:textAlignment="0"
+        android:text="First"
+        android:textSize="20sp" >
+
+    </TextView>
+     
+    <TextView
+        android:id="@+id/SecondText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.05"
+        android:gravity="right"
+        android:text="Second"
+        android:textAlignment="0"
+        android:textColor="#812"
+        android:textDirection="1"
+        android:textSize="16sp" >
+
+    </TextView>
+     
+    <TextView
+        android:id="@+id/ThirdText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:textSize="16sp"
+        android:textAlignment="0"
+        android:text="Third"
+        android:layout_weight="1">
+    </TextView>
+     
+    <TextView
+        android:id="@+id/FourthText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:textSize="16sp"
+        android:textAlignment="0"
+        android:text="Fourth"
+        android:layout_weight="1">
+    </TextView>
+    
+    <TextView
+        android:id="@+id/FifthText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.20"
+        android:gravity="right"
+        android:text="Fifth"
+        android:textAlignment="0"
+        android:textSize="16sp" >
+
+    </TextView>
+    
+    
+</LinearLayout>

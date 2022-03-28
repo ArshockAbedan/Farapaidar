@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Fara004Kala</string>
+    <string name="action_settings">Settings</string>
+    <string name="OnvaneKala">عنوان :</string>
+    <string name="searchButton">جستجو</string>
+    <string name="textboxHint">اسم را وارد کنید</string>
+
+</resources>
